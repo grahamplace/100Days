@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Day 1: Deploying a Static Blog with Jekyll and GitHub Pages"
+color:  teal
+width:   12
+height:  1
+date:   2017-08-29 11:47:00 -0700
+categories: jekyll html markdown
+---
+<br>
+
+Hi! I'm Graham.
+
+<br>
+
+Currently, I'm in Tucson studying Computer Science and Math at the University
+  of Arizona, and formerly, I built [Opendoor Mortgage](https://www.opendoormortgage.co/)
+  over at [Opendoor](https://www.opendoor.com/) in San Francisco.
+
+<br>
+
+While in San Francisco, I came to truly appreciate the value of building as a
+  means of learning. Once I returned to Tucson to finish my degree, I realized
+  that I needed to keep building things if I wanted to maintain my trajectory of
+  growth.
+
+<br>
+
+And thus, I challenged myself to commit code (of any variety) every single day for
+  100 days straight.
+
+<br>
+
+My goal is to learn something, _anything_ new every day. I won't be doing anything
+  crazy or huge — instead, I simply want to get my hands dirty on as many new languages,
+  frameworks, and open source codebases as I can.
+
+<br>
+
+This blog is a meta-project that will serve as the place where I track my progress
+  through the 100 days and as my Day 1 code commit!
+
+<br>
+
+Shipping this blog was a great first-day project. I had made a personal site using
+  Jekyll and GitHub Pages before, but know that I have a better handle on Web Dev
+  concepts, everything makes far more sense. In future days, I think I'll add to
+  the site; I'd like to make the Jekyll theme a bit more custom, and I want to
+  build a dynamic tracker that shows the proportion of each language I've worked
+  with during the 100 days.
