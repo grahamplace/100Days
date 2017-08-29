@@ -14,6 +14,7 @@ baseurl: "/100Days" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: graham_place
 github_username:  grahamplace
+future: true
 
 # Build settings
 markdown: kramdown
