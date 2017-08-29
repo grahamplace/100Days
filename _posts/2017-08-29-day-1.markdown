@@ -48,3 +48,7 @@ Shipping this blog was a great first-day project. I had made a personal site usi
   the site; I'd like to make the Jekyll theme a bit more custom, and I want to
   build a dynamic tracker that shows the proportion of each language I've worked
   with during the 100 days.
+
+<br>
+
+To see the code powering this blog, [check out the repo on GitHub.](https://github.com/grahamplace/100Days)
