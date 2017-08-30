@@ -15,3 +15,8 @@ categories:
 - Custom Jekyll Theme
 - Dynamic Jekyll Post Categories Usage Chart
 - Build Out [Personal Site](http://www.graham.place)
+- Implement Algorithms from CSC445 Course
+- Clone of Alexander Chen's [Beach Bells](http://www.chenalexander.com/Beach-Bells) Project
+- Helios Project (Raspberry Pi + Radio-Controlled Outlets to Control Electronics via HTTP Request)
+- Contribute to [Swisp](https://github.com/jakerockland/Swisp) (Lisp Interpreter Written in Swift)
+- [Processing Art](https://www.tumblr.com/tagged/processing)
