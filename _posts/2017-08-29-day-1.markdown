@@ -43,7 +43,7 @@ This blog is a meta-project that will serve as the place where I track my progre
 <br>
 
 Shipping this blog was a great first-day project. I had made a personal site using
-  Jekyll and GitHub Pages before, but know that I have a better handle on Web Dev
+  Jekyll and GitHub Pages before, but now that I have a better handle on Web Dev
   concepts, everything makes far more sense. In future days, I think I'll add to
   the site; I'd like to make the Jekyll theme a bit more custom, and I want to
   build a dynamic tracker that shows the proportion of each language I've worked
