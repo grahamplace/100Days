@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Ideas: Brainstorming Projects for the Next 100 Days "
+color:  red
+width:   6
+height:  1
+date:   2017-08-29 17:08:00 -0700
+categories:
+---
+<br>
+- Core Data Structures Implemented in Various Languages
+- Avalon iOS Game
+- Process Identify/Kill Bash Command
+- Make [Tusi](http://www.graham.place/tusi/) Dynamic
+- Custom Jekyll Theme
+- Dynamic Jekyll Post Categories Usage Chart
+- Build Out [Personal Site](http://www.graham.place)
