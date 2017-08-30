@@ -27,3 +27,4 @@ categories:
 - Python Script to Calculate APR with Known Variables
 - Add Day Counter to 100Days Site
 - Custom URL Shortener
+- Burnout List, a [Breakout List](https://breakoutlist.com/) Parody
