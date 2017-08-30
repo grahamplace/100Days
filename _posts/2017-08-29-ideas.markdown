@@ -20,3 +20,9 @@ categories:
 - Helios Project (Raspberry Pi + Radio-Controlled Outlets to Control Electronics via HTTP Request)
 - Contribute to [Swisp](https://github.com/jakerockland/Swisp) (Lisp Interpreter Written in Swift)
 - [Processing Art](https://www.tumblr.com/tagged/processing)
+- Simple Segment Analytics Implementation
+- Stable Marriage Matching Implementation
+- oh-my-zsh Configuration with Install Script to Make it Easy to Share
+- Automate Daily Mortgage Rate Estimation (Selenium + Cron)
+- Python Script to Calculate APR with Known Variables
+- Add Day Counter to 100Days Site
