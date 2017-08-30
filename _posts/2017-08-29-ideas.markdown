@@ -26,3 +26,4 @@ categories:
 - Automate Daily Mortgage Rate Estimation (Selenium + Cron)
 - Python Script to Calculate APR with Known Variables
 - Add Day Counter to 100Days Site
+- Custom URL Shortener
