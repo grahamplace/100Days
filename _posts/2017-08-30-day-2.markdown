@@ -1,0 +1,96 @@
+---
+layout: metrokirkos_post
+title:  "Day 2: Visualizing Periodic Circular Motion"
+color:  blue
+width:   6
+height:  1
+date:   2017-08-30 17:00:00 -0700
+categories: processing java math
+---
+
+<br>
+
+Day 2 of 100 is in the books!
+
+<br>
+
+I recently watched a fantastic [Adam Neely video](https://youtu.be/h3kqBX1j7f8), in which he addresses the
+  question: ["What is the fastest music humanly possible?"](https://youtu.be/h3kqBX1j7f8)
+
+<br>
+
+To summarize the main point of the video: humankind's ability to comprehend fast music
+  _does_ seem to have an upper bound, measured using something called the interonset interval.
+  The interonset interval is the time (in milliseconds) between rhythmic stimuli at a given beats per minute (bpm) tempo.
+
+<br>
+
+For context, some common bpm values and their corresponding interonset intervals:
+
+60 bpm: 1000 ms
+
+120 bpm: 500 ms
+
+168 bpm: 350 ms
+
+240 bpm: 250 ms
+
+<br>
+
+In his 2002 paper ["Cognitive Constraints on Metric Systems: Some Observations and Hypotheses,"](https://www.researchgate.net/publication/249979646_Cognitive_Constraints_on_Metric_Systems_Some_Observations_and_Hypotheses) Justin London makes the claim that an interonset interval of 250 ms (240 bpm) is "Too fast to be useful."
+
+<br>
+
+Neely goes on to challenge this claim, using counterexamples of musical performances that push past
+  the 250 ms threshold and yet are still comprehensible as distinct musical ideas.
+
+<br>
+
+However, by the end of the video Neely has identified a less controversial upper bound: an interonset interval of 50 ms.
+  He shows that at tempos that break the 50 ms interonset interval, a steady rhythm will actually be perceived as a tone with a perceivable _pitch_. This phenomenon occurs because the human threshold of pitch perception is 20 Hz (equivalent to a 50 ms period).
+
+<br>  
+
+I find Neely's exploration of the upper bounds of human musical comprehension fascinating,
+  but I'm interested in the lower bound of our understanding of tempo as well. We aren't just bad at hearing
+  very fast music — we're also bad at discerning tempo when it's very slow.
+
+<br>
+
+The same [London paper](https://www.researchgate.net/publication/249979646_Cognitive_Constraints_on_Metric_Systems_Some_Observations_and_Hypotheses) describes a tempo of 30 bpm (interonset interval of 2000 ms) as "Too slow to be useful."
+Musicians have adapted for our inability to deal with slow tempos by _subdividing_, wherein
+  the musician may very well be articulating quarter notes at 30 bpm (and thus with a 2000 ms interonset interval),
+  but internally she is dividing each note into four sixteenth notes that she _can_ comprehend as they are analogous to quarter notes at 120 bpm, with an interonset interval of 500 ms.
+
+<br> <br>
+
+Thinking about our limited window of tempo-comprehension made me wonder if we could
+  leverage a sense other than hearing to understand tempo in a different way. Modern electronic metronomes
+  use a flashing light to visualize the set tempo — maybe other visual representations of tempo better suited to
+  subdivision could expose patterns and relationships between subdivisions that we can't comprehend with only auditory input.
+
+<br>
+
+Imagine a set of dots rotating on concentric circular paths. Each ring would have a period of rotation representing a typical
+  musical division of time at a given tempo (eight notes are twice as fast as quarter notes and would thus have half the
+  period of rotation).
+
+<br>
+
+This would create a sort of visual metronome: an outer ring rotating at a base tempo, say, quarter note = 60 bpm, with an inner "eighth note" ring rotating with a period of 120 bpm. Building this programmatically would allow this concept to be easily extend well beyond the upper and lower bounds of tempo comprehension outlined earlier, and perhaps allow us to understand tempo relationships within a much wider subset than possible using our hearing alone.
+
+<br>
+
+It was this idea that led me to what I've dubbed "metrokirkos" — metro from the greek word for "measure" and kirkos from the Greek word for "ring".
+
+<br>
+
+Metrokirkos explores the relationships between objects rotating with different (but related) periods, and thus extends our
+understanding of tempo. In the same way that all musical subdivisions will eventually "meet" at a given beat, the rotating circles in metrokirkos will ultimately align when the outer-most circle completes a rotation — a "downbeat" of sorts.
+
+<br>
+Below is the first iteration of metrokirkos; I plan to make it interactive (adjusting the number of rings, varying the outermost ring's period, etc) over the coming days!
+
+<br>
+<br>
+<canvas data-processing-sources="../../../../../../metrokirkos/metrokirkos.pde"></canvas>

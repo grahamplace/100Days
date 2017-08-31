@@ -1,0 +1,30 @@
+---
+layout: post
+title:  "Ideas: Brainstorming Projects for the Next 100 Days "
+color:  red
+width:   6
+height:  1
+date:   2017-08-29 17:08:00 -0700
+categories:
+---
+<br>
+- Core Data Structures Implemented in Various Languages
+- Avalon iOS Game
+- Process Identify/Kill Bash Command
+- Make [Tusi](http://www.graham.place/tusi/) Dynamic
+- Custom Jekyll Theme
+- Dynamic Jekyll Post Categories Usage Chart
+- Build Out [Personal Site](http://www.graham.place)
+- Implement Algorithms from CSC445 Course
+- Clone of Alexander Chen's [Beach Bells](http://www.chenalexander.com/Beach-Bells) Project
+- Helios Project (Raspberry Pi + Radio-Controlled Outlets to Control Electronics via HTTP Request)
+- Contribute to [Swisp](https://github.com/jakerockland/Swisp) (Lisp Interpreter Written in Swift)
+- [Processing Art](https://www.tumblr.com/tagged/processing)
+- Simple Segment Analytics Implementation
+- Stable Marriage Matching Implementation
+- oh-my-zsh Configuration with Install Script to Make it Easy to Share
+- Automate Daily Mortgage Rate Estimation (Selenium + Cron)
+- Python Script to Calculate APR with Known Variables
+- Add Day Counter to 100Days Site
+- Custom URL Shortener
+- Burnout List, a [Breakout List](https://breakoutlist.com/) Parody
