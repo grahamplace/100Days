@@ -2,7 +2,7 @@
 layout: post
 title:  "Day 1: Deploying a Static Blog with Jekyll and GitHub Pages"
 color:  teal
-width:   6
+width:   12
 height:  1
 date:   2017-08-29 11:47:00 -0700
 categories: jekyll html markdown
