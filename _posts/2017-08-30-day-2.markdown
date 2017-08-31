@@ -89,7 +89,7 @@ Metrokirkos explores the relationships between objects rotating with different (
 understanding of tempo. In the same way that all musical subdivisions will eventually "meet" at a given beat, the rotating circles in metrokirkos will ultimately align when the outer-most circle completes a rotation — a "downbeat" of sorts.
 
 <br>
-Below is the first iteration of metrokirkos; I plan to make it interactive (adjusting the number of co
+Below is the first iteration of metrokirkos; I plan to make it interactive (adjusting the number of rings, varying the outermost ring's period, etc) over the coming days!
 
 <br>
 <br>
