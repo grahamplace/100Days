@@ -28,3 +28,4 @@ categories:
 - Add Day Counter to 100Days Site
 - Custom URL Shortener
 - Burnout List, a [Breakout List](https://breakoutlist.com/) Parody
+- Chrome Extension à la [Motivation](https://chrome.google.com/webstore/detail/motivation/ofdgfpchbidcgncgfpdlpclnpaemakoj?hl=en) that Displays [Wait But Why](https://waitbutwhy.com/2015/12/the-tail-end.html)-Inspired Counts of Finite Things

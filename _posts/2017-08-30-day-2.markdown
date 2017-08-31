@@ -10,7 +10,9 @@ categories: processing java math
 
 <br>
 
-Day 2 of 100 is in the books!
+Day 2 of 100 is in the books! The code I shipped today can be found in this GitHub repo:
+
+[https://github.com/grahamplace/metrokirkos](https://github.com/grahamplace/metrokirkos)
 
 <br>
 
