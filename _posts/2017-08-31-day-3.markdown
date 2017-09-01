@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "Day 3: Portable Terminal Configuration via Bash Scripts"
+color:  teal
+width:   6
+height:  1
+date:   2017-08-31 23:30:00 -0700
+categories: bash
+---
+
+<br>
+
+Well, my Day 3 project was a bit of a flop. But I learned some new things!
+
+<br>
+
+Here's the repo with the code I worked on:
+[https://github.com/grahamplace/gimmedatzsh](https://github.com/grahamplace/gimmedatzsh)
+
+<br>
+
+Bash has always been one of those things that I know I need to get better at, so
+  today I thought I would work with it a bit. Having returned to school from Opendoor,
+  I shifted back to primarily using my personal laptop, whereas in SF I was spending the
+  majority of my day on my work computer.
+
+<br>
+
+My work computer was configured exactly to my liking — I discovered the oh-my-zsh/iTerm2 combo
+  while working at Opendoor, and loved it from day 1. Back at school, I
+  realized that my personal machine's terminal was stuck in 2016, while my work machine's terminal was
+  already in 3017.
+
+<br>
+
+I had also recently chatted with a friend of mine about shells and terminal configurations, so I thought it would be cool to work on creating an easily run, easily shared way to configure my terminal. That way, I could switch laptops or set up a friend with only a few commands.
+
+<br>
+
+I got close, but overall it didn't come out exactly as intended. I read up on the
+  different ways to install zsh and oh-my-zsh, and wrote a couple of Bash scripts
+  that install those two and set zsh as the user's default shell.
+
+<br>
+
+Customizing the terminal via oh-my-zsh was a bit more challenging. My hope was to
+  write into the .zshrc file from the Bash script. I learned some new things about
+  regular expressions + sed and writing into files, but ultimately the customization
+  step proved to be too much for me last night.
+
+<br>
+
+It's tricky because you want the script to be flexible enough to keep any _current_
+  customizations in the user's .zshrc file. For example, I had been using zsh and
+  rbenv on my personal machine, I just hadn't customized everything to the extent
+  that I had on my other laptop. When I started trying to update the .zshrc file,
+  I realized I had accidentally removed
+
+`export PATH="$HOME/.rbenv/bin:$PATH"` and `eval "$(rbenv init -)"` from my .zshrc
+  and temporarily ruined my ability to use Ruby.
+
+<br>
+
+In the spirit of learning, I think I'm going to try again tomorrow! I think there
+  may be a better solution that leverages the oh-my-zsh customizations and leaves
+  the .zshrc file alone. Tomorrow is a new day! 
