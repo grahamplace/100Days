@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Day 4: Portable Terminal Configuration, Round 2"
+color:  teal
+width:   8
+height:  1
+date:   2017-09-01 23:00:00 -0700
+categories: bash
+---
+
+<br>
+
+Day 4 meant more work on my [Day 3 project](http://www.graham.place/100Days/bash/2017/08/31/day-3.html),
+coming up with a frictionless way to port my favorite terminal configuration to new
+machines via a few interactive Bash scripts.
+
+<br>
+Here's the repo with the code I worked on today:
+[https://github.com/grahamplace/gimmedatzsh](https://github.com/grahamplace/gimmedatzsh)
+
+<br>
+
+Day 3 wasn't very fruitful, but today I made far more progress! I read more about
+  Oh My Zsh, and realized that I could add customizations programmatically via
+  ~/.oh-my-zsh/custom as opposed to trying to edit the .zshrc file itself via
+  Bash commands, which was giving me quite the headache last night.
+
+<br>
+
+Armed with this knowledge, I updated my scripts and got them working. Additionally,
+  I made the installation and customization process interactive, letting users
+  decide what to install. I also added checks to make sure the scripts don't overwrite existing
+  installations of zsh and Oh My Zsh without asking the user first.
+
+<br>
+
+All in all, I think it came out well! I learned a bunch of Bash stuff that
+  I didn't know before, and I was able to configure my own personal laptop
+  using the scripts. Hopefully I can convince some friends to give it a go as
+  well!

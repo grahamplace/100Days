@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Day 3: Portable Terminal Configuration via Bash Scripts"
-color:  teal
-width:   6
+color:  red
+width:   4
 height:  1
 date:   2017-08-31 23:30:00 -0700
 categories: bash
@@ -63,4 +63,4 @@ It's tricky because you want the script to be flexible enough to keep any _curre
 
 In the spirit of learning, I think I'm going to try again tomorrow! I think there
   may be a better solution that leverages the oh-my-zsh customizations and leaves
-  the .zshrc file alone. Tomorrow is a new day! 
+  the .zshrc file alone. Tomorrow is a new day!
