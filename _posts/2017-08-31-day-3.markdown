@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Day 3: Portable Terminal Configuration via Bash Scripts"
-color:  red
+color:  teal
 width:   4
 height:  1
 date:   2017-08-31 23:30:00 -0700

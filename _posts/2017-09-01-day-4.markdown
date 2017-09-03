@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Day 4: Portable Terminal Configuration, Round 2"
-color:  teal
-width:   8
+color:  red
+width:   4
 height:  1
 date:   2017-09-01 23:00:00 -0700
 categories: bash

@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Day 5: Improving this Blog's Mobile Experience"
+color:  blue
+width:   8
+height:  1
+date:   2017-09-02 17:00:00 -0700
+categories: html css
+---
+
+<br>
+
+For Day 5, I needed to something relatively short as I had a large compilers project
+  to do, and a UA Football game to attend with my friends! I spun up this blog using a [great Jekyll theme from
+  GitHub user @nikrich](https://github.com/nikrich/jekyll-slender-template), but I
+  wasn't in love with the mobile layout of the theme. So today, I fixed it!
+
+<br>
+
+I was working on the CSS files for this blog, so I was working out of its repo: [https://github.com/grahamplace/100Days](https://github.com/grahamplace/100Days)
+
+<br>
+
+I've never been very strong with CSS and the other design-oriented aspects of the
+  front-end, so this was a great thing to work on today. I find that every time
+  I dig into a small, single problem (i.e. "I don't want posts' text to hit the edges of the browser")
+  I manage to both solve the problem and learn something new about front-end design.
+
+<br>
+
+This was the case today! I worked out a few bugs and got the blog looking much
+  better on small browsers. On top of that, I decided the margin issue on posts was
+  enough of an actual bug (as opposed to a design decision I disagreed with) to
+  Pull Request a fix on the template's source code. TBD if I get merged! That PR is here: [https://github.com/nikrich/jekyll-slender-template/pull/25](https://github.com/nikrich/jekyll-slender-template/pull/25)
