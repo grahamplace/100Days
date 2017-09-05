@@ -15,4 +15,13 @@ posts.each do |post|
   end
 end
 
-puts categories
+file_str = ''
+
+categories.each do |c, i|
+  num = (i / 10.0).ceil
+  file_str += "-   id: #{c}"
+  file_str += "\n    descr: #{c}"
+  file_str += "\n    xp: #{num.to_s}\n"
+end
+
+File.write('../_data/skills.yml', file_str)
