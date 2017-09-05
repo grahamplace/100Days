@@ -16,8 +16,9 @@ posts.each do |post|
 end
 
 file_str = ''
+sorted = categories.sort
 
-categories.each do |c, i|
+sorted.each do |c, i|
   num = (i / 10.0).ceil
   file_str += "-   id: #{c}"
   file_str += "\n    descr: #{c}"
