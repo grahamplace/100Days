@@ -11,6 +11,7 @@ posts.each do |post|
       c = l.split(' ')
       c.delete('categories:')
       c.each { |t| categories[t] = categories[t].to_i + 1 }
+      break
     end
   end
 end

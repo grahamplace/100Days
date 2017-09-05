@@ -1,38 +1,11 @@
--   id: 1)
-    descr: 1)
-    xp: 1
--   id: Parse
-    descr: Parse
-    xp: 1
--   id: Read
-    descr: Read
-    xp: 1
 -   id: bash
     descr: bash
-    xp: 1
--   id: categories
-    descr: categories
     xp: 1
 -   id: css
     descr: css
     xp: 1
--   id: each
-    descr: each
-    xp: 1
--   id: file
-    descr: file
-    xp: 1
--   id: for
-    descr: for
-    xp: 1
 -   id: html
     descr: html
-    xp: 1
--   id: in.
-    descr: in.
-    xp: 1
--   id: interested
-    descr: interested
     xp: 1
 -   id: java
     descr: java
@@ -46,24 +19,9 @@
 -   id: math
     descr: math
     xp: 1
--   id: post's
-    descr: post's
-    xp: 1
 -   id: processing
     descr: processing
     xp: 1
 -   id: ruby
     descr: ruby
-    xp: 1
--   id: tags
-    descr: tags
-    xp: 1
--   id: the
-    descr: the
-    xp: 1
--   id: we're
-    descr: we're
-    xp: 1
--   id: —
-    descr: —
     xp: 1
