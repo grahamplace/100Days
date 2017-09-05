@@ -2,7 +2,7 @@
 layout: metrokirkos_post
 title:  "Day 2: Visualizing Periodic Circular Motion"
 color:  blue
-width:   8
+width:   6
 height:  1
 date:   2017-08-30 17:00:00 -0700
 categories: processing java math
