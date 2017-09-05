@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Day 6: Generating a Skills Progress Bar"
+color:  blue
+width:   4
+height:  1
+date:   2017-09-03 11:00:00 -0700
+categories: html ruby
+---
+
+<br>
+
+The theme I'm using for this blog comes with a neat little "Skills" progress bar
+  layout that is meant to be used as a static "I am this good at these skills" chart
+  on a portfolio site.
+
+<br>
+
+I liked the design of the skills chart, but I wasn't thrilled that it could only be
+  generated from a static yaml file. So for Day 6 today, I decided to come up with
+  a way to dynamically pull the "skills" data from the markdown files that generate
+  the daily posts. That way, I could simply tag each post when I write it, and the
+  skills chart will update and reflect my progress.
+
+<br>
+
+This problem has three parts that need to be solved:
+
+1) Read — Parse each post's markdown file for the categories tags we're interested in.
+
+2) Write — Once we've compiled the data from the markdown files, write it in the
+  appropriate format in the skills.yml file.
+
+3) Display — Update the front-end code of the blog to include the skills progress bar.
+
+<br>
+
+I unfortunately didn't have a ton of time to code today (I'm camping with some friends
+  tonight and heading out soon) so I only shipped the "Read" portion. I have a Ruby
+  script that parses the post markdown files and creates a hash that stores each
+  category tag, and with it the total number of posts that are tagged with that
+  category.
+
+<br>
+
+I'll be updating this more tomorrow, but the file lives here:
+
+[https://github.com/grahamplace/100Days/blob/master/scripts/skills.rb](https://github.com/grahamplace/100Days/blob/master/scripts/skills.rb)

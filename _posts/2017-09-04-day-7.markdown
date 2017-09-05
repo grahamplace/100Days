@@ -1,0 +1,43 @@
+---
+layout: post
+title:  "Day 7: Generating a Skills Progress Bar, Part 2"
+color:  teal
+width:   8
+height:  1
+date:   2017-09-04 11:15:00 -0700
+categories: html ruby
+---
+
+<br>
+
+For Day 7, I spent a bit more time on the skills progress bar script from Day 6!
+
+<br>
+
+Today was Labor Day, so I spent the day wrapping up camping with friends, golfing with
+  my dad and brother, and having a family dinner at my parents' house. Not a lot of
+  time to write code!
+
+<br>
+
+Nevertheless, I am determined to keep committing code every day, so after driving back home to
+  my apartment across town, I finished up the progress bar I started working on yesterday.
+
+<br>
+
+Today I added the "Write" and "Display" functionality, and you can now see my "Skills Developed"
+  progress bar on the homepage of this blog! Current version can be seen here:
+
+[https://github.com/grahamplace/100Days/blob/master/scripts/skills.rb](https://github.com/grahamplace/100Days/blob/master/scripts/skills.rb)
+
+<br>
+
+Upon finishing these two portions, I realized that perhaps I need a fourth category: "Generate".
+
+<br>
+
+The script works perfectly, and generates the skills.yml file from the post markdown files whenever you run it.
+  The problem is that _I actually have to run it_. I think tomorrow I might see if something like
+  a git pre-commit hook that would generate the skills.yml file any time a new post
+  is added might solve the problem. But, in the meantime, I got 4 hours of sleep in a hammock
+  last night, so I'm going to crash! Plenty of days remaining to perfect things.
