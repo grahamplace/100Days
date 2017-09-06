@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Ideas: Brainstorming Projects for the Next 100 Days "
-color:  red
-width:   6
+color:  orange
+width:   5
 height:  1
 date:   2017-08-29 17:08:00 -0700
 categories:

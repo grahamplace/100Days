@@ -1,0 +1,51 @@
+---
+layout: post
+title:  "Day 8: The Stable Marriage Problem"
+color:  orange
+width:   4
+height:  1
+date:   2017-09-04 21:10:00 -0700
+categories: java algorithms
+---
+
+<br>
+
+It's Day 8, and the start of the second week of this challenge! Today in my Algorithms
+  course (445), we discussed the "Stable Marriage Problem" — a classic algorithms problem
+  that has implications in assigning medical students to hospitals, users to servers,
+  roommates to roommates, and more. In fact, work on this problem domain won two economists
+  a [Nobel Prize in Economics in 2012.](https://www.nobelprize.org/nobel_prizes/economic-sciences/laureates/2012/)
+
+<br>
+
+For a great primer on the problem, I would recommend the following Numberphile video:  
+
+<br>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qcv1IqHWAzg?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<br>
+
+I found the problem quite interesting, but my algorithms class is purely theoretical;
+  that is, we only study algorithms, we don't actually implement them. Thus, I
+  thought a great project to work on would be an implementation of the "Traditional
+  Marriage Algorithm" (TMA), a standard solution the the Stable Marriage Problem.
+
+<br>
+
+With the time that I had to code today, I began work on my implementation, which
+  can be found in the repo below. I decided to implement the TMA in Java as I am familiar
+  with it, but also because I know my algorithms professor uses Java for the intro
+  Algorithms class he teaches (345), which does include implementation projects. By using a
+  language I know he is accustomed to grading algorithms in, my hope is that I can
+  get his input on my implementation of the TMA we studied in his 445 class.
+
+<br>
+
+Currently, I pretty much only have a shell of the project, with the classes mostly
+  fleshed out and the input file reading complete. Tomorrow, I'll work on the actual
+  implementation of the TMA itself!
+
+<br>
+
+[https://github.com/grahamplace/algorithms/tree/master/stable_marriage/src/stable_marriage](https://github.com/grahamplace/algorithms/tree/master/stable_marriage/src/stable_marriage)

@@ -2,7 +2,7 @@
 layout: post
 title:  "Day 7: Generating a Skills Progress Bar, Part 2"
 color:  teal
-width:   8
+width:   4
 height:  1
 date:   2017-09-04 11:15:00 -0700
 categories: html ruby
