@@ -1,0 +1,37 @@
+---
+layout: post
+title:  "Day 9: Marriage Matching and Binary Operations"
+color:  teal
+width:   12
+height:  1
+date:   2017-09-04 23:50:00 -0700
+categories: java algorithms c
+---
+
+<br>
+
+Day 9! Had quite the day in terms of schoolwork — I had a test and a project to complete
+  for my Computer Organization course. I did spend a bit of time this morning working
+  on my implementation of the Traditional Marriage Algorithm (see [yesterday's post](http://www.graham.place/100Days/java/algorithms/2017/09/04/day-8.html)),
+  but I spent roughly 5 hours today cranking out a programming project for school.
+  I think the reality of my workload is such that a few of my 100 days will have commits
+  consisting of code I write for school.
+
+<br>
+
+Thus, my project today was implementation of binary operations in Java and C, meant to
+  mimic the the CPU implementations of these operations. Yep, it was as tedious as it sounds —
+  writing out implementations of these operations by hand, bit-by-bit.
+
+<br>
+
+It was nice to get back into C, it's been about a year since I've used it. Some people
+  love it, some people hate it. I prefer more abstracted languages (s/o to Ruby!), but I
+  do appreciate that C doesn't let you get away with anything hand wavy. We'll see if
+  I feel the same way when I start writing MIPS assembly for this course.
+
+<br>
+
+Unfortunately, I can't share my code via a public repo as I'm sure that would violate
+  the University of Arizona's Code of Academic Integrity. You'll have to take my word for it, but
+  fret not — I can promise you that I'm coding, and more importantly, that I'm learning.
