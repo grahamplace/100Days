@@ -1,5 +1,11 @@
+-   id: algorithms
+    descr: algorithms
+    xp: 1
 -   id: bash
     descr: bash
+    xp: 1
+-   id: c
+    descr: c
     xp: 1
 -   id: css
     descr: css
@@ -21,6 +27,9 @@
     xp: 1
 -   id: processing
     descr: processing
+    xp: 1
+-   id: r
+    descr: r
     xp: 1
 -   id: ruby
     descr: ruby
