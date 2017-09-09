@@ -12,7 +12,7 @@ categories: java algorithms c
 
 Day 9! Had quite the day in terms of schoolwork — I had a test and a project to complete
   for my Computer Organization course. I did spend a bit of time this morning working
-  on my implementation of the Traditional Marriage Algorithm (see [yesterday's post](http://www.graham.place/100Days/java/algorithms/2017/09/04/day-8.html)),
+  on my implementation of the Traditional Marriage Algorithm (see [yesterday's post](http://www.graham.place/100Days/java/algorithms/2017/09/05/day-8.html)),
   but I spent roughly 5 hours today cranking out a programming project for school.
   I think the reality of my workload is such that a few of my 100 days will have commits
   consisting of code I write for school.

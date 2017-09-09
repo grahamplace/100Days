@@ -9,3 +9,33 @@ categories: r
 ---
 
 <br>
+
+Today, I finished the R script I began working on for [yesterday's post](http://www.graham.place/100Days/r/2017/09/07/day-10.html). I'm happy to report that
+Phase 1 of my plan to win my Fantasy Football league is complete: I now have a
+dataset of the outcomes of every regular season NFL game played in the past decade.
+
+<br>
+
+Once I shook off my R rustiness yesterday, I was able to spend today actually making
+  progress finishing the script, and wrangling the data into a nice, clean CSV for
+  later use. I still need to define my potential picking methodology and obtain
+  input data, but once I do those two things, I'll have test data ready to go.
+
+<br>
+
+You can see both the script that scrapes the game result data as well as the CSV itself
+  in this GitHub repo:
+
+[https://github.com/grahamplace/nfl](https://github.com/grahamplace/nfl)
+
+<br>
+
+A sample of the CSV output looks like this:
+
+<br> 
+
+| date       	| winner              	| winner_score 	| loser                	| loser_score 	|
+|------------	|---------------------	|--------------	|----------------------	|-------------	|
+| 2006-09-07 	| Pittsburgh Steelers 	| 28           	| Miami Dolphins       	| 17          	|
+| 2006-09-10 	| Cincinnati Bengals  	| 23           	| Kansas City Chiefs   	| 10          	|
+| 2006-09-10 	| Baltimore Ravens    	| 27           	| Tampa Bay Buccaneers 	| 0           	|
