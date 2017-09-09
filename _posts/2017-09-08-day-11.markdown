@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Day 11: Fantasy Football, Part 2"
+color:  blue
+width:   12
+height:  1
+date:   2017-09-08 22:15:00 -0700
+categories: r
+---
+
+<br>

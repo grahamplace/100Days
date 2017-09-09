@@ -1,10 +1,10 @@
 ---
 layout: post
 title:  "Day 9: Marriage Matching and Binary Operations"
-color:  teal
-width:   12
+color:  orange
+width:   6
 height:  1
-date:   2017-09-04 23:50:00 -0700
+date:   2017-09-06 23:50:00 -0700
 categories: java algorithms c
 ---
 

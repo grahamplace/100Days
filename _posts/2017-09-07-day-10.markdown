@@ -1,0 +1,75 @@
+---
+layout: post
+title:  "Day 10: Fantasy Football Without Knowing Any Football"
+color:  teal
+width:   6
+height:  1
+date:   2017-09-07 21:30:00 -0700
+categories: r
+---
+
+<br>
+
+Today, my friend Matthew managed to convince me to join a Fantasy Football pool
+  with a $100 buy-in, and ~$4,500 total pool to be won. Problem is, I know next-to-nothing
+  about football.
+
+<br>
+
+Thus, my only hope is to win with _statistics_.
+
+<br>
+
+What I like about this pool setup is that unlike player-based fantasy football,
+  I only need to make predictions of individual games, stack-ranked by my confidence
+  in each prediction. That is, your most confident prediction is ranked "16", and if
+  your prediction proves to be correct, you earn 16 points. Each week, the person with
+  the most points wins the weekly payout (with smaller prizes for second and third).
+
+<br>
+
+This greatly simplifies any potential methodology of picking teams, and in fact lends itself
+  very nicely to using something similar to [FiveThirtyEight's Elo model](https://projects.fivethirtyeight.com/2017-nfl-predictions/games/)
+
+<br>
+
+Another simple approach would be to trust Vegas, and pick the favorite of each game,
+  sorting by the projected point spread to determine the confidence of each pick.
+  With only two hours to make my Week 1 pick, this was my approach. I used the betting odds from [FootballLOCKS.com](http://www.footballlocks.com/nfl_odds.shtml) and crossed my fingers.
+
+<br>
+
+I want to come up with a more robust approach to making my picks, and to do so I need three things:
+
+<br>
+
+1) Historical Game Data - Whatever methodology I come up with, I need a way to back test it. To do that,
+  I'll need a dataset of as many past game outcomes as possible.
+
+<br>
+
+2) Methodologies - Whether it's a clone of FiveThirtyEight's Elo model, trusting Las Vegas, random selection,
+  or something completely novel, I'll need to formalize and program the approach.
+
+<br>
+
+3) Input Data - Let's say I want to compare the success of trusting Vegas vs FiveThirtyEight's Elo model.
+  For both cases, I'll need the historical weekly projections of both models. Then, I can run a script that
+  would make picks as if I were using each method respectively, and generate two prediction sets.
+  I would then "grade" those predictions against the historical game data from 1) and see which approach is
+  historically the most successful.
+
+<br>
+
+Today, I got started on Step 1, writing the beginning of an R script using [Hadley's rvest package](https://github.com/hadley/rvest) to scrape historical game data from the archives of [Pro Football Reference](https://www.pro-football-reference.com/years/2006/week_1.htm).
+
+<br>
+
+It's been about a year since I did anything serious with R, so I spent a good chunk of time ramping back up.
+  Didn't quite finish the script, but I made enough progress to feel confident about knocking out the rest tomorrow!
+
+<br>
+
+My scripts, data, and models will all be in this GitHub repo:
+
+[https://github.com/grahamplace/nfl](https://github.com/grahamplace/nfl)
