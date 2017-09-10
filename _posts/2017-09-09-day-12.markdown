@@ -1,0 +1,55 @@
+---
+layout: post
+title:  "Day 12: Fantasy Football, Part 3"
+color:  blue
+width:   6
+height:  1
+date:   2017-09-09 21:50:00 -0700
+categories: r
+---
+
+<br>
+
+Today, my goal was to scrape a dataset of historical Las Vegas NFL game outcome projections,
+  including both the winner and the predicted point spread.
+
+<br>
+
+Unfortunately, it's the end of the day, and I don't have said dataset. Granted,
+  I spent most of the day getting up to Phoenix to spend the day with Flinn friends and
+  a coworker from Opendoor that was in town, so I wasn't able to commit a ton of
+  time to solving the problem.
+
+<br>
+
+That said, the biggest obstacle was actually the format of the HTML I'm trying to
+  scrape. If you're handy with your browser's website inspecting tool, check out
+  the HTML disaster that is this page:
+
+[http://www.footballlocks.com/nfl_odds_week_2.shtml](http://www.footballlocks.com/nfl_odds_week_2.shtml)
+
+<br>
+
+This Frankenstein of nested table elements is making it extremely difficult to
+  pull the data I want out of the tables I care about, the weekly game outcome tables.
+  The salt in the wounds is that I can't seem to find a free archive of projections
+  data anywhere else, so I need this one to work.
+
+<br>
+
+I _really_ want this data so that I can test the success of the "Trust Vegas" methodology,
+  so I think I'm going to take another crack at it tomorrow, and hopefully I'll come up with
+  an even "cutesier" way to solve the problem that isn't coming to me now.
+
+<br>
+
+My current best-effort was to convert each xml_node object into a string, and filter the
+  list of returned table elements on the page by matching a regular expression that should
+  only appear in the "score" tables; something like "<td> At". That got me from 75 table elements to 41,
+  but the nesting issue remains.
+
+<br>
+
+If you're curious, I'm working out of this GitHub repository:
+
+[https://github.com/grahamplace/nfl](https://github.com/grahamplace/nfl)
