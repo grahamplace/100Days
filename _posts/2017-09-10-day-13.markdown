@@ -1,0 +1,57 @@
+---
+layout: post
+title:  "Day 13: /now and Embedding Spotify Recent Listens"
+color:  blue
+width:   12
+height:  1
+date:   2017-09-10 20:04:00 -0700
+categories: html http
+---
+
+<br>
+
+A while back, I saw someone tweet about a new feature they had added to their
+  personal website: a /now page that showed what they were reading, working on, etc.
+
+<br>
+
+I loved the idea, and always wanted to make my own. Music is a hobby of mine, and
+  something that I'm incredibly passionate about, so when thinking about what
+  defines me at any given "now," I can't leave out the music that I'm listening to.
+
+<br>
+
+With that in mind, I wanted to explore the possibility of a dynamic display of my
+  ~5 most recently played songs or artists on Spotify (my streaming service of choice).
+  That way, on any given page load of [http://www.graham.place/now](http://www.graham.place/),
+  a visitor could see and hopefully even hear what music is currently on my radar.
+
+<br>
+
+Today was mostly spent exploring the Spotify API and figuring out how to get through
+  its authorization flow such that I ended up with a token to send when requesting the
+  recent plays of my user object. This meant I didn't ship a ton of code today — I essentially
+  just added a quick repo to use as a sandbox for this idea, and figured out how to embed
+  the Spotify player of a given track id onto an HTML page.
+
+<br>
+
+I got the embedded player working, and I worked through the API until I ended up with a
+  JSON hash containing my 50 most recently played tracks! There are two problems left to solve:
+
+1) Keeping the authorization fresh — the token issued by Spotify that you use to request
+  a user's recent plays expires after 60 minutes. There is a way to refresh it, so I'll
+  need to dig into how I can basically never let that expire — I want visitors to the site
+  to be able to see my Spotify data without needing to go through any authorization flow.
+
+2) Displaying the data — once I have the track ids of my recently played songs, how do
+  I display that nicely on the page? The Spotify embeddable player looks great, but I'll need
+  to write some sort of responsive wrapper to put around them.
+
+<br>
+
+Those are problems for another day! For now, I'll leave you with some music I'm currently listening to:
+
+<br>
+
+<iframe src="https://open.spotify.com/embed/track/2svtFCYzf2ybG4aLVNMWxr" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
