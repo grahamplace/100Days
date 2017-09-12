@@ -1,0 +1,54 @@
+---
+layout: post
+title:  "Day 14: Python and Pivots"
+color:  blue
+width:   12
+height:  1
+date:   2017-09-11 23:52:00 -0700
+categories: python http
+---
+
+<br>
+
+Yesterday, I came up with a plan to pull my recently played Spotify tracks onto
+  my personal website. Today, I had to pivot away from that plan.
+
+<br>
+
+I realized today that the authentication obstacle would prove to difficult to solve
+  when all I have to work with is this static blog, hosted on GitHub pages.
+  I have a new plan, however!
+
+<br>
+
+The new plan is to write a python script(s) that can deal with the auth issue server-side,
+  and also use the Spotify API to update the tracks in a public playlist owned by
+  my account. The advantage of this approach is that the static front-end of this blog
+  can easily embed the public playlist with no authorization challenges, leaving the
+  logic of "getting recently played tracks into said playlist" to the scripts hidden
+  away on a server somewhere.
+
+<br>
+
+Essentially, every ~60 minutes or so, a python script will run and do three main things:
+
+1) Pull my recently played tracks from the Spotify API.
+
+2) Empty the playlist.
+
+3) Add however many of my recent tracks I want to the playlist.
+
+<br>
+
+And thus, the next time someone loads the page, the playlist will have my recently played tracks.
+
+<br>
+
+Unfortunately, I didn't quite get that far today. Today was one of _those days_,
+  involving lots of banging my head against a wall while trying to sort through
+  Homebrew + python + pipenv issues.
+
+<br>
+
+By the end, I got a simple "Hello World" python script deployed via Heroku, so I'm all
+  set up to get some real work done tomorrow!

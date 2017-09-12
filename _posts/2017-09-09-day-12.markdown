@@ -2,7 +2,7 @@
 layout: post
 title:  "Day 12: Fantasy Football, Part 3"
 color:  blue
-width:   6
+width:   4
 height:  1
 date:   2017-09-09 21:50:00 -0700
 categories: r
