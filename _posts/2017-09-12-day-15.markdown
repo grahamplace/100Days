@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Day 15: Lex Scanner"
-color:  blue
+color:  teal
 width:   6
 height:  1
 date:   2017-09-12 23:00:00 -0700
@@ -31,4 +31,4 @@ The project was relatively straightforward, though multi-line comments (think /*
 
 Unfortunately, I can't share my code here as it would violate my school's Code of Academic
   Integrity to share it publicly. I committed it to a private repo on GitHub to make
-  sure I tracked today's commits! 
+  sure I tracked today's commits!

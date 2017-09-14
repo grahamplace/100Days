@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Day 16: Baby's First Assembly"
-color:  teal
-width:   12
+color:  orange
+width:   5
 height:  1
 date:   2017-09-13 23:10:00 -0700
 categories: assembly

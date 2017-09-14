@@ -1,0 +1,40 @@
+---
+layout: post
+title:  "Day 17: Spotipy"
+color:  blue
+width:   7
+height:  1
+date:   2017-09-14 01:12:00 -0700
+categories: python http
+---
+
+<br>
+
+FINALLY! After banging my head against a wall trying to get the Spotipy python library
+  set up, I have a working test!
+
+<br>
+
+Given the number of posts about oauth issues on Stack Overflow and the Issues page of
+  the Spotipy GitHub repo, I'm inclined to believe that it's not just me struggling with this.
+  As far as I can tell, Spotify recently changed their API's authentication protocol,
+  and I'm not sure that the Spotipy library (or at the very least their documentation)
+  has caught up.
+
+<br>
+
+Regardless, after reading through something like 8 different Stack Overflow solutions,
+  I got my test script to correctly authenticate my user, and add a test track to a
+  private playlist!
+
+<br>
+
+Now that I have that figured out, the actual scripting of pulling recent tracks,
+  clearing the old tracks from the "Recently Played" playlist, and filling it back up with the
+  most recent plays should be trivial.
+
+<br>
+
+The repo I'm working out of can be found here:
+
+[https://github.com/grahamplace/spotify](https://github.com/grahamplace/spotify)
