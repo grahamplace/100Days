@@ -1,17 +1,26 @@
 -   id: algorithms
     descr: algorithms
     xp: 1
+-   id: assembly
+    descr: assembly
+    xp: 1
 -   id: bash
     descr: bash
     xp: 1
 -   id: c
     descr: c
     xp: 1
+-   id: compilers
+    descr: compilers
+    xp: 1
 -   id: css
     descr: css
     xp: 1
 -   id: html
     descr: html
+    xp: 1
+-   id: http
+    descr: http
     xp: 1
 -   id: java
     descr: java
@@ -27,6 +36,9 @@
     xp: 1
 -   id: processing
     descr: processing
+    xp: 1
+-   id: python
+    descr: python
     xp: 1
 -   id: r
     descr: r

@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "Day 15: Lex Scanner"
+color:  blue
+width:   6
+height:  1
+date:   2017-09-12 23:00:00 -0700
+categories: c compilers
+---
+
+<br>
+
+I've been incredibly busy with schoolwork this week, so today was another "Coding for
+  School" day of this challenge. It's a little less exciting that way, but I still
+  learn a ton from my hands-on class projects!
+
+<br>
+
+In my Compilers class, we're finally getting out hands dirty on some real compiler code;
+  today, I wrote a Lex scanner to practice identifying tokens from an input file based
+  on pattern-matching via regular expressions.
+
+<br>
+
+The project was relatively straightforward, though multi-line comments (think /*
+  ... \*\/ if you're familiar with C) threw me for a bit of a loop. I had it working
+  with an online regex tester using a lookahead approach, but I could only get it
+  working in the Lex scanner using Start Conditions.
+
+<br>
+
+Unfortunately, I can't share my code here as it would violate my school's Code of Academic
+  Integrity to share it publicly. I committed it to a private repo on GitHub to make
+  sure I tracked today's commits! 

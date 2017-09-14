@@ -1,0 +1,41 @@
+---
+layout: post
+title:  "Day 16: Baby's First Assembly"
+color:  teal
+width:   12
+height:  1
+date:   2017-09-13 23:10:00 -0700
+categories: assembly
+---
+
+<br>
+
+Another packed day, another "Shipping my Schoolwork" kind of commit.
+
+<br>
+
+I ended up spending a ton of time writing code today, so I'm not too torn up about it!
+  I put the finishing touches of my scanner from yesterday and submitted it. With
+  that out of the way, I knocked out a project for my Computer Organization course.
+
+<br>
+
+After a few weeks of studying the theory that underpins how a CPU works, we finally
+  started digging in — this project was our first assignment using MIPS assembly.
+  It was pretty straightforward — just moving data around, implementing a basic bubble sort,
+  and writing the output — but it was a great way to ramp up using MIPS. It certainly
+  takes a different kind of thinking than the Ruby/Java I've been using lately!
+
+<br>
+
+Writing this project in assembly was tedious, but rewarding. It strikes at the heart
+  of why I enjoy programming: you're essentially solving logical puzzles, trying to
+  be as clever as possible with a small set of tools at your disposal. Assembly is
+  about as close to machine-level as you can get (throwback to my ECE days taking
+  circuits and digital logic), so it's stripped down to a very minimal set of things
+  you can do — and yet you can solve any problem you could with a high-level language.
+
+<br>
+
+I also can't share this code (the assignment is still active), but I committed
+  the project to GitHub to make sure I got my commits for the day in!
