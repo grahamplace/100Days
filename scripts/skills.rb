@@ -3,6 +3,7 @@ files = Dir.entries(folder)
 posts = files.delete_if { |f| !f.include?('.markdown') }
 
 categories = {}
+post_count = 0
 
 posts.each do |post|
   path = folder + '/' + post
@@ -11,6 +12,7 @@ posts.each do |post|
       c = l.split(' ')
       c.delete('categories:')
       c.each { |t| categories[t] = categories[t].to_i + 1 }
+      post_count+=1
       break
     end
   end
@@ -19,8 +21,10 @@ end
 file_str = ''
 sorted = categories.sort
 
+m = sorted.to_h.values.max
+
 sorted.each do |c, i|
-  num = (i / 10.0).ceil
+  num = (10 * (i.to_f / m.to_f)).to_i
   file_str += "-   id: #{c}"
   file_str += "\n    descr: #{c}"
   file_str += "\n    xp: #{num.to_s}\n"

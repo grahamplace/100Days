@@ -1,48 +1,48 @@
 -   id: algorithms
     descr: algorithms
-    xp: 1
+    xp: 4
 -   id: assembly
     descr: assembly
-    xp: 1
+    xp: 2
 -   id: bash
     descr: bash
-    xp: 1
+    xp: 4
 -   id: c
     descr: c
-    xp: 1
+    xp: 4
 -   id: compilers
     descr: compilers
-    xp: 1
+    xp: 2
 -   id: css
     descr: css
-    xp: 1
+    xp: 2
 -   id: html
     descr: html
-    xp: 1
+    xp: 10
 -   id: http
     descr: http
-    xp: 1
+    xp: 6
 -   id: java
     descr: java
-    xp: 1
+    xp: 6
 -   id: jekyll
     descr: jekyll
-    xp: 1
+    xp: 2
 -   id: markdown
     descr: markdown
-    xp: 1
+    xp: 2
 -   id: math
     descr: math
-    xp: 1
+    xp: 2
 -   id: processing
     descr: processing
-    xp: 1
+    xp: 2
 -   id: python
     descr: python
-    xp: 1
+    xp: 4
 -   id: r
     descr: r
-    xp: 1
+    xp: 6
 -   id: ruby
     descr: ruby
-    xp: 1
+    xp: 4
