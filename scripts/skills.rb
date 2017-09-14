@@ -1,4 +1,5 @@
-folder = '../_posts'
+#!/usr/local/bin/ruby -w
+folder = './_posts'
 files = Dir.entries(folder)
 posts = files.delete_if { |f| !f.include?('.markdown') }
 
@@ -30,4 +31,4 @@ sorted.each do |c, i|
   file_str += "\n    xp: #{num.to_s}\n"
 end
 
-File.write('../_data/skills.yml', file_str)
+File.write('./_data/skills.yml', file_str)
