@@ -1,0 +1,49 @@
+---
+layout: post
+title:  "Day 18: Spotipy, Part 2"
+color:  teal
+width:   12
+height:  1
+date:   2017-09-15 23:59:00 -0700
+categories: python
+---
+
+<br>
+
+For Day 18, I'm happy to report that the first iteration of my "Spotipy" project
+  is live!
+
+<br>
+
+Yesterday, I got everything set up, including a simple test script that could
+  add a hardcoded track to a playlist. Today, I wrote a script that implements logic
+  to dynamically maintain a playlist of my 100 most-recent Spotify plays.
+
+<br>
+
+In addition to the logic that actually adds and removes songs from the playlist, I wanted
+  to limit the inclusion of tracks such that only _one_ song from a given album would
+  be in the playlist at a given time. I tend to listen to music by listening to entire albums top to bottom,
+  but I would rather my "Recently Played" playlist represent the diverse set of artists
+  on my radar, rather than simply including my true 100 most recent plays.
+
+<br>
+
+Once I got the script working as intended, I deployed it to Heroku, configured the
+  Heroku app with the correct environment variables, added a scheduler to run the python script every 10 minutes, and set it loose!
+
+<br>
+
+The playlist is public, so what you see below is a simple embed of the playlist that will update as
+  the playlist does. In the future, I want to do something cooler as a view — I
+  noticed that the Spotify API responses include a link to the album artwork of a
+  given track object, so it could be cool to render a dynamic mosaic of all the albums
+  included in the playlist.
+
+<br>
+
+The repo with the code for this project can be found here: [https://github.com/grahamplace/spotify](https://github.com/grahamplace/spotify)
+
+<br>
+
+<iframe src="https://open.spotify.com/embed/user/g.place/playlist/4XW1C9qdMjf0xbEsL1r7Zy" width="100%" height="750" frameborder="0" allowtransparency="true"></iframe>
